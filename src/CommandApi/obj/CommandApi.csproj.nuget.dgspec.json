@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\API\\commandAPIsolution\\src\\commandApi\\CommandApi.csproj": {}
+    "E:\\API\\commandAPIsolution\\src\\commandapi\\CommandApi.csproj": {}
   },
   "projects": {
-    "E:\\API\\commandAPIsolution\\src\\commandApi\\CommandApi.csproj": {
+    "E:\\API\\commandAPIsolution\\src\\commandapi\\CommandApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\API\\commandAPIsolution\\src\\commandApi\\CommandApi.csproj",
+        "projectUniqueName": "E:\\API\\commandAPIsolution\\src\\commandapi\\CommandApi.csproj",
         "projectName": "CommandApi",
-        "projectPath": "E:\\API\\commandAPIsolution\\src\\commandApi\\CommandApi.csproj",
+        "projectPath": "E:\\API\\commandAPIsolution\\src\\commandapi\\CommandApi.csproj",
         "packagesPath": "C:\\Users\\Tale\\.nuget\\packages\\",
-        "outputPath": "E:\\API\\commandAPIsolution\\src\\commandApi\\obj\\",
+        "outputPath": "E:\\API\\commandAPIsolution\\src\\commandapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tale\\AppData\\Roaming\\NuGet\\NuGet.Config",

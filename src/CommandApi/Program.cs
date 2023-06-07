@@ -1,8 +1,13 @@
+using CommandApi.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 
 //register services to enable the use of controllers
 builder.Services.AddControllers();
+
+//DI // we attached the interface with its implementation
+builder.Services.AddScoped<ICommandAPIRepo, MockCommandAPIRepo>();
 
 var app = builder.Build();
 
