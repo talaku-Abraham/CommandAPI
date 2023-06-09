@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\API\\commandAPIsolution\\test\\commandApi.Test\\commandAPI.Test.csproj": {}
+    "e:\\API\\commandAPIsolution\\test\\commandApi.Test\\commandAPI.Test.csproj": {}
   },
   "projects": {
-    "E:\\API\\commandAPIsolution\\src\\commandAPi\\commandAPI.csproj": {
+    "e:\\API\\commandAPIsolution\\src\\commandAPi\\commandAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\API\\commandAPIsolution\\src\\commandAPi\\commandAPI.csproj",
+        "projectUniqueName": "e:\\API\\commandAPIsolution\\src\\commandAPi\\commandAPI.csproj",
         "projectName": "commandAPI",
-        "projectPath": "E:\\API\\commandAPIsolution\\src\\commandAPi\\commandAPI.csproj",
+        "projectPath": "e:\\API\\commandAPIsolution\\src\\commandAPi\\commandAPI.csproj",
         "packagesPath": "C:\\Users\\Tale\\.nuget\\packages\\",
-        "outputPath": "E:\\API\\commandAPIsolution\\src\\commandAPi\\obj\\",
+        "outputPath": "e:\\API\\commandAPIsolution\\src\\commandAPi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tale\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "microsoft.entityframeworkcore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "microsoft.entityframeworkcore.design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "pomelo.entityframeworkcore.mysql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,14 +78,14 @@
         }
       }
     },
-    "E:\\API\\commandAPIsolution\\test\\commandApi.Test\\commandAPI.Test.csproj": {
+    "e:\\API\\commandAPIsolution\\test\\commandApi.Test\\commandAPI.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\API\\commandAPIsolution\\test\\commandApi.Test\\commandAPI.Test.csproj",
+        "projectUniqueName": "e:\\API\\commandAPIsolution\\test\\commandApi.Test\\commandAPI.Test.csproj",
         "projectName": "commandAPI.Test",
-        "projectPath": "E:\\API\\commandAPIsolution\\test\\commandApi.Test\\commandAPI.Test.csproj",
+        "projectPath": "e:\\API\\commandAPIsolution\\test\\commandApi.Test\\commandAPI.Test.csproj",
         "packagesPath": "C:\\Users\\Tale\\.nuget\\packages\\",
-        "outputPath": "E:\\API\\commandAPIsolution\\test\\commandApi.Test\\obj\\",
+        "outputPath": "e:\\API\\commandAPIsolution\\test\\commandApi.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tale\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,8 +102,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\API\\commandAPIsolution\\src\\commandAPi\\commandAPI.csproj": {
-                "projectPath": "E:\\API\\commandAPIsolution\\src\\commandAPi\\commandAPI.csproj"
+              "e:\\API\\commandAPIsolution\\src\\commandAPi\\commandAPI.csproj": {
+                "projectPath": "e:\\API\\commandAPIsolution\\src\\commandAPi\\commandAPI.csproj"
               }
             }
           }

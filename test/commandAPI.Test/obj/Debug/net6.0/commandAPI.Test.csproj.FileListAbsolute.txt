@@ -105,3 +105,17 @@ e:\API\commandAPIsolution\test\commandApi.Test\obj\Debug\net6.0\refint\commandAP
 e:\API\commandAPIsolution\test\commandApi.Test\obj\Debug\net6.0\commandAPI.Test.pdb
 e:\API\commandAPIsolution\test\commandApi.Test\obj\Debug\net6.0\commandAPI.Test.genruntimeconfig.cache
 e:\API\commandAPIsolution\test\commandApi.Test\obj\Debug\net6.0\ref\commandAPI.Test.dll
+e:\API\commandAPIsolution\test\commandApi.Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+e:\API\commandAPIsolution\test\commandApi.Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+e:\API\commandAPIsolution\test\commandApi.Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+e:\API\commandAPIsolution\test\commandApi.Test\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+e:\API\commandAPIsolution\test\commandApi.Test\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+e:\API\commandAPIsolution\test\commandApi.Test\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+e:\API\commandAPIsolution\test\commandApi.Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+e:\API\commandAPIsolution\test\commandApi.Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+e:\API\commandAPIsolution\test\commandApi.Test\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+e:\API\commandAPIsolution\test\commandApi.Test\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+e:\API\commandAPIsolution\test\commandApi.Test\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+e:\API\commandAPIsolution\test\commandApi.Test\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+e:\API\commandAPIsolution\test\commandApi.Test\bin\Debug\net6.0\MySqlConnector.dll
+e:\API\commandAPIsolution\test\commandApi.Test\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
