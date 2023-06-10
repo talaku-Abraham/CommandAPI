@@ -13,26 +13,17 @@ builder.Services.AddScoped<ICommandAPIRepo, SqlCommandNewRepo>();
 
 
 
-ConfigurationManager config = builder.Configuration;
+var myConBuilder = new MySqlConnectionStringBuilder();
+myConBuilder.ConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+myConBuilder.UserID = builder.Configuration["User ID"];
+myConBuilder.Password = builder.Configuration["Password"];
+
+// var _config = builder.Configuration.GetConnectionString("DefaultConnection");
 
 
-// var mysqlConBuilder = new MySqlConnectionStringBuilder();
-// mysqlConBuilder.ConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-
-
-
-// builder.Services.AddTransient<MySqlConnection>(_ => new MySqlConnection(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-
-//  builder.Services.AddDbContext<CommandContext>(options =>
-// {        options.UseMySql(mysqlConBuilder.ConnectionString,new MySqlServerVersion(new Version(8, 0, 33)));
-// });
-
-
-var _config = builder.Configuration.GetConnectionString("DefaultConnection");
-// var connection =_config.GetConnectionString("DefaultConnection");
+//register our dbcontext to the configurationservice method& pass the connectionString via the configuration api
  builder.Services.AddDbContext<CommandContext>(options =>
-{        options.UseMySql(_config,new MySqlServerVersion(new Version(8, 0, 33)));
+{        options.UseMySql(myConBuilder.ConnectionString,new MySqlServerVersion(new Version(8, 0, 33)));
 });
 
 // app.MapGet("/", () => "Hello World!");
