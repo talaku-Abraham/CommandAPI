@@ -42,3 +42,9 @@ e:\API\commandAPIsolution\src\commandAPi\bin\Debug\net6.0\System.Text.Encodings.
 e:\API\commandAPIsolution\src\commandAPi\bin\Debug\net6.0\System.Text.Json.dll
 e:\API\commandAPIsolution\src\commandAPi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 e:\API\commandAPIsolution\src\commandAPi\obj\Debug\net6.0\commandAPI.csproj.CopyComplete
+E:\API\commandAPIsolution\src\commandapi\bin\Debug\net6.0\AutoMapper.dll
+E:\API\commandAPIsolution\src\commandapi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\API\commandAPIsolution\src\commandapi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\API\commandAPIsolution\src\commandapi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\API\commandAPIsolution\src\commandapi\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\API\commandAPIsolution\src\commandapi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
